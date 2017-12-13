@@ -1,0 +1,27 @@
+/* CSS Document */
+body{ margin:0px; padding:0; background-image: url(../images/main_bg1.gif); background-repeat:repeat-x; font-size:12px;}
+
+.textarea{ border-bottom:1px dashed #666; border-left:0px; border-top:0px;border-right:0px;}
+.Button{background-image:url(../images/button_bg.gif);background-repeat:repeat-x;background-position:top;height:23px;border:1px solid #336699;color:#FFF;text-align:center;font-weight:bold;padding-left:5px;padding-right:5px;cursor: hand;}
+input{ border:1px solid #336699;}
+#pop_top {background-image: url(../images/top_pop_bg.jpg); background-repeat: repeat-x; height: 40px; width: 700px;;}
+#pop_top .logo { background-image: url(../images/top_pop_logo.jpg); background-repeat: no-repeat; height: 40px; width: 330px; float: left;}
+#pop_top .img { background-image: url(../images/top_pop_img.jpg); background-repeat: no-repeat; background-position:top right; float: right; height: 40px; width:370px; font-size: 12px; color: #0074B8;}
+
+#pop {width:680px; border:1px solid #999; clear:both; margin:5px; padding:5px; background-color:#FFF;}
+#pop table { border:1px solid #0099CC; background-color:#f3fee9;}
+#pop td{ background-image:url(../images/dot1.gif); background-repeat:repeat-x; background-position:bottom; text-align:left; padding:3px;}
+#pop th{ border-bottom:1px dashed #999; padding:5px; text-align:left; color:#003399; font-weight:bold; background-color:#C4D8F2; border-right:1px solid #FFF;}
+#pop td a:link { color:#0074B8; text-decoration: none; }
+#pop td a:visited { color:#0074B8;text-decoration: none; }
+#pop td a:hover { color:#009900;text-decoration:underline; }
+#pop td a:active { color:#009966;text-decoration:none;}
+#title { height:22px; border:1px solid #48818e; width:698px; background-image:url(../images/title_blue_bg.gif); background-repeat:repeat-x; background-position:top;}
+#title .left{ background-image:url(../images/title_blue_left.gif); background-position:left; background-repeat:no-repeat; width:5%; height:22px; float:left;}
+#title .right{ background-image:url(../images/title_blue_bg.gif); background-repeat:repeat-x; color:#FFF; font-weight:bold; width:95%; text-align:left; height:17px; float:left; padding-top:5px;}
+
+#pop #button{ text-align:center; background-color:#C4D8F2; width:100%; vertical-align:middle; padding-top:5px;}
+
+.red{ color:#ff2a00; font-weight:bold;}
+
+#bottom{ background-image:url(../images/bottom_bg.gif); background-repeat:repeat-x; height:25px; background-position:top; text-align:center; color:#000; border-top:2px solid #005c96; padding-top:5px;}

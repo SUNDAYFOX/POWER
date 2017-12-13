@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN" "http://struts.apache.org/dtds/struts-config_1_3.dtd">
+
+<struts-config>
+	<form-beans>
+		<form-bean name="PowerForm" type="power.PowerForm" />
+	</form-beans>
+  <global-exceptions />
+	<global-forwards>
+		<forward name="Success" path="/page/Success.jsp" />
+		<forward name="Fail" path="/page/fail.jsp" />
+    	<forward name="loginFail" path="/SessionFail.jsp" />
+	</global-forwards>
+	<action-mappings>
+		<action attribute="PowerForm" name="PowerForm" parameter="action" 
+			path="/searchPower" scope="request"
+			type="power.SearchPowerAction">
+			<forward name="search" path="/power.jsp" /> 
+			<forward name="import" path="/page/import/trainingplanimport.jsp" />    
+			<forward name="trainingrunimport" path="/page/import/trainingrunimport.jsp" />    
+			<forward name="trainingcourseimport" path="/page/import/trainingcourseimport.jsp" />     
+			<forward name="teacherinfoimport" path="/page/import/teacherinfoimport.jsp" />   
+			<forward name="bookinfoimport" path="/page/import/bookinfoimport.jsp" />     		
+			<forward name="studentinfoimport" path="/page/import/studentinfoimport.jsp" />
+			<forward name="chargeinfoimport" path="/page/import/chargeinfoimport.jsp" />	  
+			<forward name="feeinfoimport" path="/page/import/feeinfoimport.jsp" />
+		</action>
+		<action attribute="PowerForm" name="PowerForm" parameter="action" 
+			path="/makeData" scope="request"
+			type="power.MakeDataAction">        
+		</action>		
+	</action-mappings>
+	
+  <message-resources parameter="struts.ApplicationResources" />
+</struts-config>
+

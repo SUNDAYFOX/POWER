@@ -1,0 +1,150 @@
+#nav A {
+	DISPLAY: block;
+	FONT-WEIGHT: bold;
+	MARGIN: 0px 7px;
+	COLOR: #0c419a;
+	LINE-HEIGHT: 28px;
+	text-decoration: none;
+	text-align: center;
+}
+#nav A:hover {
+	COLOR: #13b3e3;
+	TEXT-DECORATION: none;
+	text-align: center;
+}
+#nav LI {
+	COLOR: #fff;
+	LINE-HEIGHT: 28px;
+	float: left;
+	text-align: center;
+}
+#nav LI.line {
+	background-image: url(../images/menu_line.gif);
+	background-repeat: no-repeat;
+	height: 28px;
+	width: 4px;
+	padding: 0px;
+	margin: 0px;
+}
+#nav LI UL {
+	LEFT: -999em;
+	POSITION: absolute;
+	width: 120px;
+}
+#nav LI UL.nav1 {
+	PADDING-LEFT: 40px; MARGIN-LEFT: -46px; WIDTH: 736px
+}
+#nav LI UL.nav2 {
+	PADDING-LEFT: 150px; MARGIN-LEFT: -151px; WIDTH: 626px
+}
+#nav LI UL.nav3 {
+	PADDING-LEFT: 122px; MARGIN-LEFT: -223px; WIDTH: 654px
+}
+#nav LI UL.nav4 {
+	PADDING-LEFT: 238px; MARGIN-LEFT: -308px; WIDTH: 538px
+}
+#nav LI UL.nav5 {
+	PADDING-LEFT: 10px; MARGIN-LEFT: -393px; WIDTH: 766px
+}
+#nav LI UL.nav6 {
+	PADDING-LEFT: 18px; MARGIN-LEFT: -537px; WIDTH: 758px
+}
+#nav LI UL.nav7 {
+	PADDING-LEFT: 190px; MARGIN-LEFT: -465px; WIDTH: 586px
+}
+#nav LI UL LI {
+	FLOAT: left; PADDING-TOP: 2px
+}
+#nav LI UL.group1 {
+	PADDING-LEFT: 47px; MARGIN-LEFT: -46px; WIDTH: 729px
+}
+#nav LI UL.group2 {
+	PADDING-LEFT: 142px; MARGIN-LEFT: -118px; WIDTH: 634px
+}
+#nav LI UL.group3 {
+	PADDING-LEFT: 222px; MARGIN-LEFT: -229px; WIDTH: 554px
+}
+#nav LI UL.group4 {
+	PADDING-LEFT: 170px; MARGIN-LEFT: -445px; WIDTH: 606px
+}
+#nav LI UL.group5 {
+	PADDING-LEFT: 251px; MARGIN-LEFT: -314px; WIDTH: 525px
+}
+#nav LI UL.group6 {
+	PADDING-LEFT: 268px; MARGIN-LEFT: -301px; WIDTH: 508px
+}
+#nav LI UL.group7 {
+	PADDING-LEFT: 168px; MARGIN-LEFT: -458px; WIDTH: 608px
+}
+#nav LI UL.gotone1 {
+	PADDING-LEFT: 47px; MARGIN-LEFT: -46px; WIDTH: 729px
+}
+#nav LI UL.gotone2 {
+	PADDING-LEFT: 129px; MARGIN-LEFT: -131px; WIDTH: 647px
+}
+#nav LI UL.gotone3 {
+	PADDING-LEFT: 170px; MARGIN-LEFT: -203px; WIDTH: 606px
+}
+#nav LI UL.gotone4 {
+	PADDING-LEFT: 201px; MARGIN-LEFT: -288px; WIDTH: 575px
+}
+#nav LI UL.gotone5 {
+	PADDING-LEFT: 21px; MARGIN-LEFT: -360px; WIDTH: 755px
+}
+#nav LI UL.gotone6 {
+	PADDING-LEFT: 220px; MARGIN-LEFT: -445px; WIDTH: 556px
+}
+#nav LI UL A {
+	PADDING-RIGHT: 11px;
+	DISPLAY: block;
+	FONT-WEIGHT: normal;
+	LINE-HEIGHT: 12px;
+	color: #FFFFFF;
+	border-right-width: 1px;
+	border-right-style: dashed;
+	border-right-color: #ccc;
+}
+#nav LI UL A:hover {
+	COLOR: #7ecef4
+}
+#nav LI:hover UL {
+	LEFT: auto
+}
+#nav LI.sfhover UL {
+	LEFT: auto
+}
+
+
+.menutable {
+        BACKGROUND-COLOR: #ffffff; BORDER-BOTTOM: #307ce8 1px solid; BORDER-LEFT: #307ce8 5px solid; BORDER-RIGHT: #307ce8 1px solid; BORDER-TOP: #94bcf3 1px solid; FONT-SIZE: 9px; POSITION: absolute; Z-INDEX: 100
+}
+.menutrin {
+        BACKGROUND-COLOR: #1a71e6; COLOR: #ffffff; CURSOR: hand
+}
+.menutrout {
+        COLOR: #000000; CURSOR: hand
+}
+.menutd0 {
+        HEIGHT: 22px; TEXT-ALIGN: center; WIDTH: 25px; 改变这个修改菜单高度--->: 
+}
+.menutd1 {
+        FONT-FAMILY: Webdings; TEXT-ALIGN: right; WIDTH: 40px
+}
+.linktd1 {
+        WIDTH: 40px
+}
+.menutd2 {
+        WIDTH: 4px
+}
+.menuhr {
+        BORDER-BOTTOM: #307ce8 1px inset; BORDER-LEFT: #307ce8 1px inset; BORDER-RIGHT: #307ce8 1px inset; BORDER-TOP: #307ce8 1px inset
+}
+#Menu_one {
+	BACKGROUND-COLOR: #F3F3F3;
+	position:absolute;
+	width:100px;
+	height:20px;
+	z-index:1;
+}
+
+

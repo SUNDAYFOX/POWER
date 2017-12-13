@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/searchPower.do" location="50,450" dimension="168,104" />
+  <StrutsActivity path="/makeData.do" location="650,450" dimension="193,104" />
+  <StrutsActivity path="Success;6" location="350,850" dimension="183,87" />
+  <StrutsActivity path="Fail;6" location="650,850" dimension="155,87" />
+  <StrutsActivity path="loginFail;6" location="950,850" dimension="131,87" />
+  <StrutsActivity path="/power.jsp" location="950,250" dimension="94,53" />
+  <StrutsActivity path="/page/import/trainingrunimport.jsp" location="50,850" dimension="238,53" />
+  <StrutsActivity path="/page/import/trainingplanimport.jsp" location="650,650" dimension="244,53" />
+  <StrutsActivity path="/page/import/bookinfoimport.jsp" location="650,1250" dimension="228,53" />
+  <StrutsActivity path="/page/import/trainingcourseimport.jsp" location="50,1250" dimension="258,53" />
+  <StrutsActivity path="/page/import/teacherinfoimport.jsp" location="1250,450" dimension="240,53" />
+  <StrutsActivity path="/page/Success.jsp" location="650,1050" dimension="137,53" />
+  <StrutsActivity path="/page/fail.jsp" location="950,1050" dimension="109,53" />
+  <StrutsActivity path="/SessionFail.jsp" location="350,1050" dimension="120,53" />
+  <StrutsActivity path="/import.jsp" location="350,450" dimension="96,53" />
+  <StrutsActivity path="/page/point/standard_import.jsp" location="350,50" dimension="223,53" />
+  <StrutsActivity path="/page/point/original_point.jsp" location="650,50" dimension="206,53" />
+  <StrutsActivity path="/page/point/point_import.jsp" location="950,50" dimension="201,53" />
+  <StrutsActivity path="/page/point/Success.jsp" location="50,250" dimension="172,53" />
+  <StrutsActivity path="/page/point/pointquery.jsp" location="350,250" dimension="190,53" />
+  <StrutsActivity path="/page/point/addpoint.jsp" location="650,250" dimension="180,53" />
+  <StrutsActivity path="/page/import/import.jsp" location="950,450" dimension="175,53" />
+  <StrutsActivity path="/page/import/trainingplanimport.jsp.jsp" location="50,650" dimension="264,53" />
+  <StrutsActivity path="/page/import/trainingrunimportOperate.jsp" location="950,650" dimension="286,53" />
+  <StrutsActivity path="/page/error/fail.jsp" location="50,1050" dimension="144,53" />
+  <StrutsActivity path="/page/import/studentinfoimport.jsp" location="1250,850" dimension="240,53" />
+  <StrutsActivity path="/page/import/chargeinfoimport.jsp" location="1250,1050" dimension="237,53" />
+  <StrutsActivity path="/page/import/feeinfoimport.jsp" />
+  <StrutsTransition id="/searchPower.do,teacherinfoimport,/page/import/teacherinfoimport.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="134,554" />
+      <AbsolutePoint location="134,599" />
+      <AbsolutePoint location="1370,599" />
+      <AbsolutePoint location="1370,503" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="loginFail;6,null,/SessionFail.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1015,937" />
+      <AbsolutePoint location="1015,1076" />
+      <AbsolutePoint location="470,1076" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/searchPower.do,feeinfoimport,/page/import/feeinfoimport.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="134,502" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/searchPower.do,trainingrunimport,/page/import/trainingrunimport.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,502" />
+      <AbsolutePoint location="-45,502" />
+      <AbsolutePoint location="-45,876" />
+      <AbsolutePoint location="50,876" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="Success;6,null,/page/Success.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="441,893" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/searchPower.do,search,/power.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="104,450" />
+      <AbsolutePoint location="104,378" />
+      <AbsolutePoint location="997,378" />
+      <AbsolutePoint location="997,303" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/searchPower.do,studentinfoimport,/page/import/studentinfoimport.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="104,554" />
+      <AbsolutePoint location="104,629" />
+      <AbsolutePoint location="1370,629" />
+      <AbsolutePoint location="1370,850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/searchPower.do,bookinfoimport,/page/import/bookinfoimport.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="134,502" />
+      <AbsolutePoint location="764,1276" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/searchPower.do,trainingcourseimport,/page/import/trainingcourseimport.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="134,502" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/searchPower.do,chargeinfoimport,/page/import/chargeinfoimport.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,472" />
+      <AbsolutePoint location="-120,472" />
+      <AbsolutePoint location="-120,982" />
+      <AbsolutePoint location="1368,982" />
+      <AbsolutePoint location="1368,1050" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/searchPower.do,import,/page/import/trainingplanimport.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="134,502" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="Fail;6,null,/page/fail.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="727,893" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

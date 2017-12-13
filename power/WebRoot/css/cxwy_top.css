@@ -1,0 +1,125 @@
+/* CSS Document */
+
+*{margin:0;padding:0;border:0;}
+body {
+	font-family: arial, ËÎÌו, serif; font-size:12px;
+}
+#Top {
+	background-image: url(../cxwy_images/top_bg.jpg);
+	background-repeat: no-repeat;
+	height: 105px;
+	width: 100%;
+	background-position: right top;
+}
+#Top .logo {
+	background-image: url(../cxwy_images/top_logo.jpg);
+	background-repeat: no-repeat;
+	height: 105px;
+	width: 382px;
+	float: left;
+}
+#Top .img {
+	float: right;
+	height: 20px;
+	width: 180px;
+	font-size: 12px;
+	color: #FFFFFF;
+	padding-right: 10px;
+	text-align: right;
+	padding-top: 15px;
+}
+#Top .img a:link { color:#FFFFFF; text-decoration: none; }
+#Top .img a:visited { color:#FFFFFF;text-decoration: none; }
+#Top .img a:hover { color:#FFCC00;text-decoration:underline; }
+#Top .img a:active { color:#FFCC00;text-decoration:none;}
+#dh {
+	height: 42px;
+	margin-top: -43px;
+}
+#menu {
+	height: 42px;
+	width: 450px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#menu a {
+	display: block; width: 108px; text-align:center;
+}
+#menu a:link  {
+	color:#666; text-decoration:none;
+}
+#menu a:visited  {
+	color:#666;text-decoration:none;
+}
+#menu a:hover  {
+	color:#FFF;text-decoration:none;font-weight:bold;
+}
+
+#menu li {
+	float: left; width: 108px; height:42px;
+}
+#menu li.xtgl{ width:108px; height:42px;}
+
+
+#menu li ul {
+	list-style-type: none;
+	left: -650px;
+	top:65px;
+	width: 108px;
+	position: absolute;
+	float:left;
+	overflow: hidden;
+	height: auto;
+	font-weight: normal;
+	margin-left: -1px;
+	margin-top: 34px;
+}
+#menu li ul li{
+	height: 23px;
+	width: 106px;
+	background-image: url(../cxwy_images/li_bj.gif);
+	list-style-position: outside;
+	background-repeat: repeat-x;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #768AC0;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #B3D9D9;
+	background-position: bottom;
+	color: #FFFFFF;
+	font-size: 12px;
+	text-decoration: none;
+	line-height: 23px;
+	float: left;
+}
+#menu li ul a{
+	display: block; width: 106px;
+}
+#menu li ul a:link  {
+	color:#FFFFFF; text-decoration:none;
+}
+#menu li ul a:visited  {
+	color:#FFFFFF;text-decoration:none;
+}
+#menu li ul a:hover  {
+	display:block;
+	width:106px;
+	color:#000099;
+	text-decoration:none;
+	font-weight:normal;
+	background-image: url(../cxwy_images/li_bja.gif);
+	background-repeat: repeat-x;
+	font-size: 12px;
+	background-position: bottom;
+}
+	
+#menu li:hover ul {
+	left:auto;
+}
+#menu li.sfhover ul {
+	left:auto;
+}
+#content {
+	clear: left; 
+}

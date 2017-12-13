@@ -1,0 +1,198 @@
+#menu {
+	background-image: url(../images/top_menu_bg.gif);
+	background-repeat: repeat-x;
+	height: 31px;
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#menu li { float:left; margin:0px; padding:0px; }
+    
+#menu li a {display:block;margin:0; padding:0px;height:20px;}
+
+    #menu li.left{ background:url('../images/top_menu_left.gif') no-repeat left top; width:88px;} 
+    #menu li.xtgl a:hover { background:url('../images/menu_1_over.gif') no-repeat #E9EEF2; color:#3573AF; width:105px; height:22px; margin-top:5px;} 
+    #menu li.qygl a:hover { background:url('../images/menu_2_over.gif') no-repeat #E9EEF2; color:#3573AF; width:105px; height:22px; margin-top:5px;}
+    #menu li.clgl a:hover { background:url('../images/menu_3_over.gif') no-repeat #E9EEF2; color:#3573AF; width:105px; height:22px; margin-top:5px;}
+    #menu li.cljk a:hover { background:url('../images/menu_4_over.gif') no-repeat #E9EEF2; color:#3573AF; width:105px; height:22px; margin-top:5px;}
+    #menu li.cltd a:hover { background:url('../images/menu_5_over.gif') no-repeat #E9EEF2; color:#3573AF; width:105px; height:22px; margin-top:5px;}
+    #menu li.cljl a:hover { background:url('../images/menu_6_over.gif') no-repeat #E9EEF2; color:#3573AF; width:105px; height:22px; margin-top:5px;}
+    #menu li.zdgl a:hover { background:url('../images/menu_7_over.gif') no-repeat #E9EEF2; color:#3573AF; width:105px; height:22px; margin-top:5px;}
+
+	#menu li.tjbb a:hover { background:url('../images/menu_8_over.gif') no-repeat #E9EEF2; color:#3573AF; width:105px; height:22px; margin-top:5px;}
+    #menu li.right{ background:url('../images/top_menu_right.gif') no-repeat right top; width:88px; float:right;} 
+
+    /* BUTTON WIDTH WORK-AROUND */
+	#menu li.left{}
+    #menu li.xtgl a { background:url('../images/menu_1.gif')  no-repeat #E9EEF2; width:105px; height:22px; margin-top:5px;}
+    #menu li.qygl a { background:url('../images/menu_2.gif')  no-repeat #E9EEF2; width:105px; height:22px; margin-top:5px;}
+    #menu li.clgl a { background:url('../images/menu_3.gif')  no-repeat #E9EEF2; width:105px; height:22px; margin-top:5px;}
+    #menu li.cljk a { background:url('../images/menu_4.gif')  no-repeat #E9EEF2; width:105px; height:22px; margin-top:5px;}
+    #menu li.cltd a { background:url('../images/menu_5.gif')  no-repeat #E9EEF2; width:105px; height:22px; margin-top:5px;}
+    #menu li.cljl a { background:url('../images/menu_6.gif')  no-repeat #E9EEF2; width:105px; height:22px; margin-top:5px;}
+	#menu li.zdgl a { background:url('../images/menu_7.gif')  no-repeat #E9EEF2; width:105px; height:22px; margin-top:5px;}
+	#menu li.tjbb a { background:url('../images/menu_8.gif')  no-repeat #E9EEF2; width:105px; height:22px; margin-top:5px;}
+
+	#submenu li a:link { height:24px; width:200px; color:#ff0000; height:20px; border-bottom:1px dashed #999; padding:3px; display:block;}
+	#submenu li a:hover{ height:24px; width:200px;color:#ff0000; height:20px; border-bottom:1px dashed #999; padding:3px; display:block;}
+	#submenu li a:activted{ height:24px; width:200px; color:#ff0000; height:20px; border-bottom:1px dashed #999; padding:3px; display:block;}
+
+#navbg {
+	HEIGHT: 28px; BACKGROUND-COLOR: #2a2a2a
+}
+#nav A {
+	DISPLAY: block;
+	FONT-WEIGHT: bold;
+	MARGIN: 0px 7px;
+	COLOR: #0c419a;
+	LINE-HEIGHT: 28px;
+	text-decoration: none;
+	text-align: center;
+}
+#nav A:hover {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+	text-align: center;
+}
+#nav LI {
+	COLOR: #fff;
+	LINE-HEIGHT: 28px;
+	float: left;
+	text-align: center;
+	list-style-type: none;
+}
+#nav .li1 {
+	background-image: url(../images/menu-车辆调度.gif);
+	background-repeat: no-repeat;
+	height: 31px;
+	width: 100px;
+	margin-left: 10px;
+	background-position: left;
+}
+#nav .li2 {
+	background-image: url(../images/menu-车辆管理.gif);
+	background-repeat: no-repeat;
+	height: 31px;
+	width: 100px;
+	margin-left: 10px;
+	background-position: left;
+}
+#nav .li3 {
+	background-image: url(../images/menu-车辆记录.gif);
+	background-repeat: no-repeat;
+	height: 31px;
+	width: 100px;
+	margin-left: 10px;
+	background-position: left;
+}
+#nav .li4 {
+	background-image: url(../images/menu-车辆监控.gif);
+	background-repeat: no-repeat;
+	height: 31px;
+	width: 100px;
+	margin-left: 10px;
+	background-position: left;
+}
+#nav .li5 {
+	background-image: url(../images/menu-个人资料.gif);
+	background-repeat: no-repeat;
+	height: 31px;
+	width: 100px;
+	margin-left: 10px;
+	background-position: left;
+}
+#nav .li6 {
+	background-image: url(../images/menu-企业管理.gif);
+	background-repeat: no-repeat;
+	height: 31px;
+	width: 100px;
+	margin-left: 10px;
+	background-position: left;
+}
+#nav .li7 {
+	background-image: url(../images/menu-统计报表.gif);
+	background-repeat: no-repeat;
+	height: 31px;
+	width: 100px;
+	margin-left: 10px;
+	background-position: left;
+}
+#nav .li8 {
+	background-image: url(../images/menu-终端管理.gif);
+	background-repeat: no-repeat;
+	height: 31px;
+	width: 100px;
+	margin-left: 10px;
+	background-position: left;
+}
+#nav .li9 {
+	background-image: url(../images/menu-系统管理.gif);
+	background-repeat: no-repeat;
+	height: 31px;
+	width: 100px;
+	margin-left: 10px;
+	background-position: left;
+}
+#nav LI.line {
+	background-image: url(../images/menu_line.gif);
+	background-repeat: no-repeat;
+	height: 28px;
+	width: 4x;
+	padding: 0px;
+	margin: 0px;
+}
+#nav LI UL {
+	LEFT: -999em;
+	POSITION: absolute;
+	width: 100px;
+	line-height: 40px;
+	list-style-type: none;
+}
+
+#nav LI UL.nav1 { PADDING-LEFT: 0px; MARGIN-LEFT: -76px; WIDTH: 736px; padding-top: 8px;
+}
+#nav LI UL.nav2 {
+	PADDING-LEFT: 0px; MARGIN-LEFT: -100px; WIDTH: 626px; padding-top: 8px; list-style-image: url(../images/icon_left_1.gif);
+
+}
+#nav LI UL.nav3 {
+	PADDING-LEFT: 122px; MARGIN-LEFT: -223px; WIDTH: 654px; padding-top: 8px; list-style-image: url(../images/icon_left_1.gif);
+
+}
+#nav LI UL.nav4 {
+	PADDING-LEFT: 100px; MARGIN-LEFT: -308px; WIDTH: 800px; padding-top: 8px; list-style-image: url(../images/icon_left_1.gif);
+
+}
+#nav LI UL.nav5 {
+	PADDING-LEFT: 10px; MARGIN-LEFT: -100px; WIDTH: 800px; padding-top: 8px; list-style-image: url(../images/icon_left_1.gif);
+
+}
+
+#nav LI UL LI {
+	FLOAT: left; PADDING-TOP: 2px
+}
+
+#nav LI UL A {
+	PADDING-RIGHT: 11px;
+	DISPLAY: block;
+	FONT-WEIGHT: normal;
+	LINE-HEIGHT: 12px;
+	color: #FFFFFF;
+	border-right-width: 1px;
+	border-right-style: dashed;
+	border-right-color: #ccc;
+}
+#nav LI UL A:visited {
+	COLOR: #000;
+}
+#nav LI UL A:hover {
+	COLOR: #0c419a
+}
+#nav LI:hover UL {
+	LEFT: auto
+}
+#nav LI.sfhover UL {
+	LEFT: auto
+}

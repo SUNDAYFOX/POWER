@@ -1,0 +1,293 @@
+body {
+	background-image: url(../images/home_bj01.jpg);
+	background-repeat:repeat-x;
+	height: 100%;
+	width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-position: left top;
+	padding: 0px;
+	margin: 0px;
+}
+img{
+	border: none;
+}
+table {
+	margin:0;
+	padding:0;
+	width: 100%;
+}
+#Main {
+	width:900px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#flash_button{
+	width: 125px;
+	border: 0;
+	border-width: 0;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 120px;
+}
+#flash{
+	background-image: url(../images/home_bj02.jpg);
+	background-repeat:no-repeat;
+	width: 800px;
+	
+}
+#flash_table{
+	text-align: center;
+	width: 100%;
+	height: 220px;
+}
+.groupWrapper
+{
+	width: 46%;
+	float: left;
+	border: 0;
+	border-width: 0;
+	margin-top: 20px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+.groupItem_no
+{
+	margin-bottom: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #99CCFF;
+	border-bottom-color: #99CCFF;
+	border-left-color: #99CCFF;
+}
+.groupItem_no .itemHeader
+{
+	background-image: url(../images/title_right.gif);
+	background-repeat:no-repeat;
+	background-position:right top;
+	text-align: left;
+	cursor: default;
+	height: 24px;
+	width: auto;
+	padding-top: 0;
+	padding-right: 10px;
+	padding-bottom: 0;
+}
+.groupItem
+{
+	margin-bottom: 20px;
+	border-right-width: 1px;
+	border-bottom-width: 0px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #99CCFF;
+	border-bottom-color: #99CCFF;
+	border-left-color: #99CCFF;
+	
+	}
+
+.itemHeader {
+	height: 24px;
+	background-image: url(../images/title_right.gif);
+	background-repeat: repeat-x;
+	background-position: right top;
+	font-size: 12px;
+	text-decoration: none;
+	text-align: right;
+}
+.sortHelper
+{
+	border: 3px dashed #666;
+	width: auto !important;
+}
+.groupWrapper p
+{
+	height: 1px;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+.Info {
+	width: 92%;
+	float: left;
+	margin-top: 1%;
+	margin-left: 2.3%;
+	height: auto;
+}
+
+/*图片变换*/
+.pics { height: 170px; width: 270px; padding:0; margin:0; overflow: hidden }
+.pics img { height: 170px; width: 270px; padding: 0px; border: 1px solid #ccc; background-color: #eee; top:0; left:0 }
+
+/*********全局变量**********/
+*{
+	font-family: Verdana, Arial, Helvetica, sans-serif, "宋体", "黑体";
+	font-size: 12px;
+	color:#003399;
+	border: 1px;
+}
+
+#zzi{
+	background-image:url(../images/title_left.gif);
+	text-align: left;
+	height: 18px;
+	width: auto;
+	float: left;
+	font-size: 12px;
+	color: #003399;
+	padding-left: 30px;
+	background-repeat: no-repeat;
+	font-weight: bold;
+	padding-top: 6px;
+}
+#biaotiHeader{
+	text-align: left;
+	color: #003399;
+	cursor: default;
+	height: 24px;
+	width: auto;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #5E9EC6;
+	font-size: 12px;
+	line-height: 24px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #CCCCCC;
+	padding-left: 12px;
+	background-color: #CBE4EF;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+}
+#tu {
+	text-align: center;
+	height: 15px;
+	width: auto;
+	float: right;
+	padding-top: 5px;
+}
+#searchbg {
+	background-image: url(../images/search_bg.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+	padding: 5px;
+	margin-top: -1px;
+	border: 1px solid #b9d2e8;
+	text-align: left;
+}
+#searchbg td{
+	background-image:url(../images/dot1.gif);
+	background-repeat:repeat-x;
+	background-position:bottom;
+	text-align:left;
+	height: 24px;
+	line-height: 24px;
+	padding-right: 3px;
+	padding-left: 3px;
+}
+#table01 {
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #b9d2e8;
+	border-bottom-color: #b9d2e8;
+	border-left-color: #CCCCCC;
+	margin-top: -1px;
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+#table01 td{
+	text-align:left;
+	height: 24px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	background-color: #FFFFFF;
+	padding-right: 3px;
+	padding-left: 10px;
+	border-right-color: #E0E0E0;
+	border-bottom-color: #E0E0E0;
+	line-height: 24px;
+}
+#table01 th{
+	background-image:url(../images/table_bj.gif);
+	text-align:left;
+	color:#003399;
+	background-color:#C4D8F2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #DDDDDD;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #FFFFFF;
+	background-repeat: repeat-x;
+	background-position: left top;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-color: #DDDDDD;
+	font-weight: normal;
+	padding-right: 5px;
+	padding-left: 10px;
+	line-height: 24px;
+	height: 24px;
+}
+#table01 td a:link { color:#0074B8; text-decoration: none; }
+#table01 td a:visited { color:#0074B8;text-decoration: none; }
+#table01 td a:hover { color:#009900;text-decoration:underline; }
+#table01 td a:active { color:#009966;text-decoration:none;}
+#table01_title {
+	background-image:url(../images/title_blue_bg.gif);
+	background-repeat:repeat-x;
+	height:22px;
+	font-size: 12px;
+	line-height: 22px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: left;
+	width:auto;
+}
+#table01_title .left{ background-image:url(../images/title_blue_left.gif); background-position:left; background-repeat:no-repeat; width:5%; height:22px; float:left;}
+#table01 .grey {
+	background-color: #EDF1F5;
+	height: 18px;
+}
+.manu {
+	TEXT-ALIGN: right;
+	width: auto;
+	line-height: 25px;
+	height: 25px;
+}
+.manu A:hover {
+	COLOR: #FF9900;
+	border: 1px solid #FF6600;
+	background-color: #FFFFFF;
+}
+.manu A:active {
+	BORDER-RIGHT: #999 1px solid; BORDER-TOP: #999 1px solid; BORDER-LEFT: #999 1px solid; COLOR: #FF9900; BORDER-BOTTOM: #999 1px solid
+}

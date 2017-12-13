@@ -1,0 +1,42 @@
+ul{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+
+ul li{ 
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 145px; /* Width of Menu Items */
+	font-size:12px;
+	border-bottom: 1 solid #ccc;
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+}
+
+ul li a{
+	display:block;
+	text-decoration:none;
+}
+
+*html ul li a{
+	height:18px;
+}
+
+.level_1 a{
+	padding-left:5px;
+}
+
+.level_2 a{
+	padding-left:15px;
+}
+
+.level_3 a{
+	padding-left:25px;
+}
+
+.level_4 a{
+	padding-left:35px;
+}

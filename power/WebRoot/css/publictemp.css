@@ -1,0 +1,310 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+}
+
+input{
+	color:#003366;
+	margin: 2px;
+	height: 18px;	
+	font-size: 12px;
+}
+
+#Top {
+	background-image: url(../images/top_bg.jpg);
+	background-repeat: repeat-x;
+	height: 60px;
+	width: 100%;
+}
+#Top .logo {
+	background-image: url(../images/top_logo.jpg);
+	background-repeat: no-repeat;
+	height: 60px;
+	width: 400px;
+	float: left;
+}
+#Top .img {
+	background-image: url(../images/top_img.jpg);
+	background-repeat: no-repeat;
+	float: right;
+	height: 23px;
+	width: 180px;
+	font-size: 12px;
+	color: #0074B8;
+	padding-right: 220px;
+	text-align: right;
+	padding-top: 36px;
+}
+#Top .img a:link { color:#0074B8; text-decoration: none; }
+#Top .img a:visited { color:#0074B8;text-decoration: none; }
+#Top .img a:hover { color:#009900;text-decoration:underline; }
+#Top .img a:active { color:#009966;text-decoration:none;}
+
+#home_bj {
+	background-image: url(../images/home_bj.jpg);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	height: 400px;
+	width: 100%;
+}
+
+#home {
+	height: auto;
+	width: 364px;
+	margin: 10px;
+	float: left;
+}
+#home .top {
+	background-image: url(../images/home_table_01.jpg);
+	background-repeat: no-repeat;
+	height: 29px;
+	width: 364px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+}
+#home .main1 {
+	background-image: url(../images/home_table_02.jpg);
+	background-repeat: repeat-y;
+	height: auto;
+	width: 342px;
+	padding-right: 11px;
+	padding-left: 11px;
+}
+
+#home .main2 {
+	background-image: url(../images/home_table_02.jpg);
+	background-repeat: repeat-y;
+	height: auto;
+	width: 342px;
+	padding-right: 11px;
+	padding-left: 11px;
+}
+#home span {
+	font-size: 12px;
+	line-height: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #0b419b;
+}
+#home .bottom {
+	background-image: url(../images/home_table_03.jpg);
+	background-repeat: no-repeat;
+	height: 14px;
+	width: 364px;
+}
+#home table {
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #ccc4d4;
+	border-left-color: #ccc4d4;
+}
+#home th {
+	line-height: 24px;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 12px;
+	color: #0b419b;
+	background-color: #8DDAE0;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: #ccc4d4;
+	border-bottom-color: #ccc4d4;
+}
+#home td {
+	line-height: 20px;
+	font-weight: normal;
+	text-decoration: none;
+	font-size: 12px;
+	color: #000000;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: #ccc4d4;
+	border-bottom-color: #ccc4d4;
+	text-indent: 5px;
+}
+
+#Main {
+}
+
+#Main select {
+    padding-left: 0px;
+    font-size: 12px;
+}
+#Main .seachinput {
+	border: 1px solid #96969d;
+	height: 18px;
+}
+#Main #Map {
+	border: 1px solid #64649c;
+	margin: 10px;
+}
+
+#Main .nav {
+	font-size: 12px;
+	line-height: 30px;
+	text-align: left;
+	text-vlign: middle;
+	background-image: url(../images/main_nav_bg.gif);
+	background-repeat: repeat-x;
+	margin: 0px;
+	height: 20px;
+	width: 100%;
+	color: #003399;
+	padding: 10px;
+	background-position: left top;
+}
+
+#Main .Button {
+	height:20px;
+	border:1px solid #99cc00;
+	font-size:12px;
+	color:#000000;
+	background-image: url(../images/button.gif);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	background-color: #FFFFFF;
+	margin: 5px;
+	line-height: 18px;
+	padding-right: 5px;
+	padding-left: 5px;
+	text-align: center;
+}
+
+
+#Main #form {
+	border: 1px solid #63649c;
+	margin: 10px;
+	font-size: 12px;
+}
+
+#Main #form .title {
+	background-image: url(../images/form_title_bg.gif);
+	background-repeat: repeat-x;
+	background-position: left top;
+	font-size: 14px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #0b419b;
+	text-align: left;
+	text-indent: 20px;
+	height: 38px;
+}
+#Main #form .Password {
+	background-image: url(../images/password_bg.jpg);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	height: 190px;
+	width: 100%;
+	text-align: center;
+}
+#Main #form .Password td {
+	font-size: 12px;
+	height: 40px;
+}
+
+#Main #form .PasswordPic {
+	background-image: url(../images/password_pic.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	height: 190px;
+	width: 100%;
+}
+
+#Main #form .bk {
+	margin: 5px;
+	border: 1px solid #ccc4d4;
+	width: auto;
+}
+#Main #form .searchbg {
+	background-image: url(../images/form_seach.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	height: 32px;
+	padding: 10px;
+}
+#Main #form #table {
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #ccc4d4;
+	border-left-color: #ccc4d4;
+	border-bottom-width: 1px;
+	border-right-width: 1px;
+	border-bottom-style: solid;
+	border-right-style: solid;
+	border-bottom-color: #ccc4d4;
+	border-right-color: #ccc4d4;
+	margin: 2px;
+}
+
+#Main #form #table input {	
+	color:#003366;
+	margin: 2px;
+	height: 20px;	
+	font-size: 12px;
+}
+
+#Main #form #table th {
+	font-size: 12px;
+	line-height: 24px;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: #dce4eb;
+	height: 25px;
+	color: #313850;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #c9c7d4;
+}
+#Main #form #table td {
+	font-size: 12px;
+	line-height: 20px;
+	text-align: left;
+	text-indent: 5px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #c9c7d4;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #c9c7d4;
+}
+#Main #form #table td a:link { color:#0074B8; text-decoration: none; }
+#Main #form #table td a:visited { color:#0074B8;text-decoration: none; }
+#Main #form #table td a:hover { color:#009900;text-decoration:underline; }
+#Main #form #table td a:active { color:#009966;text-decoration:none;}
+
+#Main #form #table .grey {
+	background-color: #e8f8f3;
+}
+
+.button_seach {
+	font-size: 12px;
+	font-weight: bold;
+	background-image: url(../images/form_button_seach.gif);
+	background-repeat: no-repeat;
+	height: 21px;
+	width: 80px;
+	color: #003366;
+	line-height: 21px;
+	text-decoration: none;
+	text-indent: 25px;
+	text-align: left;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.font_red {
+	color: #FF0000;
+}

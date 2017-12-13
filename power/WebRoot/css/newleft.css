@@ -1,0 +1,29 @@
+/* CSS Document */
+body{ margin:0px; padding:0px; font-size:12px; width:250px;}
+input{ border:1px solid #6C92BA;}
+#Main { background-image:url(../images/main_bg1.gif); background-repeat:repeat-x; background-position:top left; width:100%; border:1px solid #999; clear:both;}
+Radio{ border:0px;}
+
+#left_title{ height:22px; border:1px solid #006699; width:100%;}
+#left_title .left{ width:6px; float:left;}
+#left_title .right{
+	background-image:url(../images/title_green_bg.gif);
+	background-repeat:repeat-x;
+	color:#FFFFFF;
+	font-weight:bold;
+	text-align:left;
+	height:17px;
+	float:left;
+	padding-top:5px;
+	width: 100%;
+}
+#Main table{ border:1px solid #0099CC; padding:3px; background-color:#FFF; background-image:url(../images/table_bg.gif); background-repeat:repeat-x; background-position:bottom; width:100%;}
+#Main td{ border-bottom:1px dashed #999; padding:5px; text-align:left;}
+#Main th{ border-bottom:1px dashed #999; padding:5px; text-align:left; color:#003399; font-weight:bold; background-color:#ddf5c3;}
+
+#search{ background-image: url(../images/left_bg2.jpg); background-repeat:no-repeat; background-position:right bottom; border:1px solid #0099CC; margin-top:3px; margin-bottom:3px; width:100%; background-color:#e6f0fa;}
+#search td{ background-image:url(../images/dot1.gif); background-repeat:repeat-x; background-position:bottom; text-align:left; padding:3px;}
+.search_title{ background-image:url(../images/left_cllb.jpg); width:250px; height:29px;}
+#left_tree{ border-bottom:1px solid #4c97f0;  border-left:1px solid #4c97f0;  border-right:1px solid #4c97f0; width:248px;}
+.Button{background-image:url(../images/button_bg.gif);background-repeat:repeat-x;background-position:top;height:23px;border:1px solid #6C92BA;color:#FFF;text-align:center;font-weight:bold;padding-left:5px;padding-right:5px;cursor: hand;}
+input{ border:1px solid #6C92BA;}

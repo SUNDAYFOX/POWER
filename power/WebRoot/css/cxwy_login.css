@@ -1,0 +1,48 @@
+body {
+	text-align: center;
+	font-size: 12px;
+	line-height: 22px;
+	color: #333333;
+	background-color: #24456E;
+}
+#Login {
+	height: 352px;
+	width: 904px;
+	margin-top: 50px;
+}
+#Login .bj {
+	height: 242px;
+	width: 834px;
+	background-image: url(../cxwy_images/login-1.jpg);
+	background-repeat: no-repeat;
+	float: left;
+	background-position: left;
+	text-align: left;
+	padding-top: 110px;
+	padding-left: 70px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #333333;
+}
+#Login .icon {
+	height: 72px;
+	width: 334px;
+	float: left;
+}
+#Login .back {
+	height: 72px;
+	width: 361px;
+	float: left;
+	background-image: url(../cxwy_images/login-bg02.jpg);
+	background-repeat: repeat-x;
+}
+#Login .logo {
+	height: 72px;
+	width: 209px;
+	float: left;
+}
+#Login .foot {
+	font-family: "ËÎÌו";
+	font-size: 12px;
+	color: #FFFFFF;
+}

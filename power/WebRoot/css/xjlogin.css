@@ -1,0 +1,85 @@
+body {
+	background-color: #bad1e7;
+	text-align: center;
+	font-size: 12px;
+	line-height: 22px;
+	color: #333333;
+	background-color: #3065A4;
+}
+.Button{
+	background-image:url(../images/button_new.gif);
+	background-repeat:no-repeat;
+	height:22px;
+	color:#000000;
+	text-align:center;
+	font-weight:normal;
+	cursor: hand;
+	width: 66px;
+	margin: 2px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	font-family: "宋体";
+	font-size: 12px;
+	padding-top: 3px;
+}
+.sr {
+	background-image:url(../images/sr.gif);
+	border-top-width: 2px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 2px;
+	border-top-style: groove;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: groove;
+	border-top-color: #99CCCC;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	border-left-color: #99CCCC;
+	width: 136px;
+	background-repeat: repeat-x;
+	height: 18px;
+}
+#Login {
+	height: 352px;
+	width: 904px;
+	margin-top: 50px;
+}
+#Login .bj {
+	height: 157px;
+	width: 834px;
+	background-image: url(../images/login-2.jpg);
+	background-repeat: no-repeat;
+	float: left;
+	background-position: left;
+	text-align: left;
+	padding-top: 195px;
+	padding-left: 70px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #333333;
+}
+#Login .icon {
+	height: 72px;
+	width: 334px;
+	float: left;
+}
+#Login .back {
+	height: 72px;
+	width: 361px;
+	float: left;
+	background-image: url(../images/login-bg02.jpg);
+	background-repeat: repeat-x;
+}
+#Login .logo {
+	height: 72px;
+	width: 209px;
+	float: left;
+}
+#Login .foot {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #FFFFFF;
+}

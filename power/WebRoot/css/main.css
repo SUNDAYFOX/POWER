@@ -1,0 +1,177 @@
+/* style the outer div to give it width */
+.menu {
+	background-image: url(../images/top_menu_bg.gif);
+	background-repeat: repeat-x;
+	height: 32px;
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	margin-right: auto;
+	margin-left: auto;
+	background-position: top;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+}
+.menu .menu_line {
+	background-image: url(../images/menu_line.gif);
+	background-repeat: no-repeat;
+	height: 32px;
+	width: 4px;
+	background-position: top;
+}
+
+
+/* remove all the bullets, borders and padding from the default list styling */
+.menu ul {
+	padding:0;
+	list-style-type:none;
+	background:transparent;
+	text-align: center;
+	margin: 0;
+}
+
+/* style the sub-level lists */
+.menu ul ul {
+	width:15em;
+}
+
+/* float the top list items to make it horizontal and a relative positon so that you can control the dropdown menu positon */
+.menu ul li {
+	float:left;
+	display:block;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #85add6;
+	line-height: 32px;
+}
+.menu .li1 {
+	background-image: url(../images/menu-11.gif);
+	background-repeat: no-repeat;
+	height: 31px;
+	width: 24px;
+	margin-left: 15px;
+}
+.menu .li2 {
+	background-image: url(../images/menu-2.gif);
+	background-repeat: no-repeat;
+	height: 31px;
+	width: 24px;
+	margin-left: 15px;
+}
+.menu .li3 {
+	background-image: url(../images/menu-3.gif);
+	background-repeat: no-repeat;
+	height: 31px;
+	width: 24px;
+	margin-left: 15px;
+}
+.menu .li4 {
+	background-image: url(../images/menu-4.gif);
+	background-repeat: no-repeat;
+	height: 31px;
+	width: 24px;
+	margin-left: 15px;
+}
+.menu .li5 {
+	background-image: url(../images/menu-5.gif);
+	background-repeat: no-repeat;
+	height: 31px;
+	width: 24px;
+	margin-left: 15px;
+}
+
+/* style the sub level list items */
+.menu ul ul li {
+	display:block;
+	width:12em;
+	height:auto;
+	line-height:1em;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #85add6;
+}
+
+/* style the links for the top level */
+.menu a, .menu a:visited {
+	display:block;
+	float:left;
+	width:7em;
+	font-size:12px;
+	text-decoration:none;
+	color:#fff;
+	padding-top: 0;
+	padding-right: 2em;
+	padding-bottom: 0;
+	padding-left: 2em;
+	text-align: center;
+}
+/* hack IE5.x to get the correct the faulty box model and get the width right */
+* html .menu a, * html .menu a:visited {width:100%; w\idth:7em;}
+
+/* style the sub level links */
+.menu ul ul a, .menu ul ul a:visited {
+	display:block;
+	color:#000000;
+	width:12em;
+	height:100%;
+	line-height:1em;
+	padding:0.5em 1em;
+	background-color: #FFFFFF;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: #85add6;
+	border-bottom-color: #85add6;
+}
+* html .menu ul ul a, * html .menu ul ul a:visited  {width:14em; w\idth:12em;}
+
+/* style the level hovers */
+/* first */
+* html .menu a:hover {
+	color:#FFFFFF;
+	position:relative;
+	z-index:100;
+	background-repeat: repeat-x;
+}
+.menu li:hover {position:relative;}
+.menu :hover > a {
+	color:#FFFFFF;
+	background-color: #FFFFFF;
+	background-repeat: repeat-x;
+}
+/* second */
+* html .menu ul ul a:hover{
+	color:#ff0;
+	position:relative;
+	z-index:110;
+	background-color: #80B3E6;
+}
+.menu ul ul li:hover {position:relative;}
+.menu ul ul :hover > a {color:#ff0;background:#7aa;}
+/* third */
+* html .menu ul ul ul a:hover {background:#7aa; position:relative; z-index:120;}
+.menu ul ul ul :hover > a {background:#7aa;}
+/* fourth */
+.menu ul ul ul ul a:hover {background:#7aa; position:relative; z-index:130;}
+
+
+/* hide the sub levels and give them a positon absolute so that they take up no room */
+.menu ul ul {visibility:hidden;position:absolute;height:0;top:3em; left:0; width:14em;}
+
+/* position the third level flyout menu */
+.menu ul ul ul{left:12em;top:0;width:14em;}
+
+
+/* make the second level visible when hover on first level list OR link */
+.menu ul :hover ul{visibility:visible; height:auto; padding:0 3em 3em 3em; background:transparent url(images/trans.gif); left:-3em;}
+/* keep the third level hidden when you hover on first level list OR link */
+.menu ul :hover ul ul{visibility:hidden;}
+/* keep the fourth level hidden when you hover on second level list OR link */
+.menu ul :hover ul :hover ul ul{visibility:hidden;}
+/* make the third level visible when you hover over second level list OR link */
+.menu ul :hover ul :hover ul{visibility:visible; left:9em;}
+/* make the fourth level visible when you hover over third level list OR link */
+.menu ul :hover ul :hover ul :hover ul {visibility:visible;}

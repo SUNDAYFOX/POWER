@@ -1,0 +1,191 @@
+body {
+	font-size: 12px;
+	padding: 0px;
+	margin-left: 50px;
+	scrollbar-face-color: #deddeb;
+	scrollbar-highlight-color: #FFFFFF;
+	scrollbar-shadow-color: #deddeb;
+	scrollbar-3dlight-color: #aa99c7;
+	scrollbar-arrow-color:  #022097;
+	scrollbar-track-color: #F4F0EB;
+	scrollbar-darkshadow-color: #aa99c7;
+	background-color: #e5f0fb;
+	height: 100%;
+	width: 219px;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+
+#menuShow{
+font-size:12px;
+padding: 0px;
+margin:0px;
+position: absolute;
+height: 100%;
+width: 219px;
+float:left;
+}
+
+#menufloat{
+background-image:url(../images/bg_menufloat.jpg);
+background-repeat:repeat-y;
+width:10px;
+height:100%;
+padding-top:60px;
+float:left;
+}
+
+
+UL { LIST-STYLE-TYPE: none; padding:0px; margin:0px}
+LI { LIST-STYLE-TYPE: none;}
+
+#Left {
+	margin: 0px;
+	width: 209px;
+	height: 100%;
+	background-color: #e5f0fb;
+	background-image: url(../images/left_bg.jpg);
+	background-position: left top;
+	text-align: left;
+	float:left;
+	background-repeat: no-repeat;
+}
+#Left .title {
+	height: 11px;
+	width: 196px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 6px;
+	background-image: url(../images/left_title.jpg);
+	background-repeat: no-repeat;
+	text-align: center;
+}
+#Left .search {
+	margin: 10px;
+}
+
+
+#container { WIDTH: 209px;}
+H1 {
+	FONT-SIZE: 12px;
+	MARGIN: 0px;
+	WIDTH: 193px;
+	CURSOR: pointer;
+	HEIGHT: 29px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+H1 A {
+DISPLAY: block; PADDING-BOTTOM: 0px; WIDTH: 193px; COLOR: #FFFFFF; PADDING-TOP: 1px; HEIGHT: 12px; TEXT-DECORATION: none; moz-outline-style: none
+}
+.content {
+	PADDING-LEFT: 8px
+}
+
+
+/*----------------- menuul ------------------*/
+#menuul {
+	text-align: left;
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	padding: 0px;
+}
+#menuul LI {
+	FONT-WEIGHT: normal;
+	LINE-HEIGHT: 30px;
+	background-image: url(../images/menu_submenu1.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #a5a5a5;
+}
+#menuul LI A {
+	PADDING-LEFT: 11px;
+	COLOR: #000000;
+	text-decoration: none;
+}
+
+#menuul .now  {
+	BACKGROUND-POSITION: 0px center;
+	BACKGROUND-IMAGE: url(../images/menu_submenu1.gif);
+	BACKGROUND-REPEAT: no-repeat;
+	color: #599C27;
+	PADDING-LEFT: 11px; 
+}
+#menuul .now_2 {
+	BACKGROUND-POSITION: 0px center;
+	BACKGROUND-IMAGE: url(../images/menu_submenu1.gif);
+	BACKGROUND-REPEAT: no-repeat;
+	color: #599C27;
+	PADDING-LEFT: 11px; 
+}
+
+#menuul .now_3 {
+	BACKGROUND-POSITION: 0px center;
+	BACKGROUND-IMAGE: url(../images/menu_submenu1.gif);
+	BACKGROUND-REPEAT: no-repeat;
+	color: #599C27;
+	PADDING-LEFT: 11px;
+	margin-left: 30px;
+}
+
+#menuul UL LI .now A {
+	COLOR: #13b3e3
+	PADDING-LEFT: 11px; 
+}
+#menuul UL LI A:hover {
+	TEXT-DECORATION: none;
+	color: #599C27;
+}
+#menuul UL LI UL LI {
+	BORDER-TOP: #a5a5a5 1px dotted;
+	BORDER-BOTTOM-WIDTH: 0px;
+	margin-left: 0px;
+	padding-left: 0px;
+	background-image: url(../images/icon_left_2.gif);
+	background-repeat: no-repeat;
+	background-position: 12px 10px;
+}
+#menuul UL LI UL LI SPAN {
+	BACKGROUND-POSITION: 0px 5px; PADDING-LEFT: 12px; BACKGROUND-IMAGE: url(../images/right_li_bg_gray.gif); COLOR: #333333; BACKGROUND-REPEAT: no-repeat
+}
+#menuul LI UL LI A:hover { COLOR: #599C27; }
+#menuul LI UL LI.now {
+	BORDER-TOP: #a5a5a5 1px dotted
+}
+#menuul LI UL LI.now SPAN {
+COLOR: #006092;
+}
+#menuul LI UL LI UL LI {
+	BORDER-TOP: #a5a5a5 1px dotted;
+	background-image: url(../images/icon_left_1.gif);
+	background-repeat: no-repeat;
+	background-position: 20px center;
+}
+#menuul LI UL LI UL LI A:hover { COLOR: #599C27; }
+#menuul LI UL LI UL LI SPAN {
+	BACKGROUND-POSITION: 8px 5px;
+	PADDING-LEFT: 20px;
+	COLOR: #484847;
+}
+
+/*------------------ menuul end ------------------*/
